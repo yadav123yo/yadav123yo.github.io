@@ -31,7 +31,7 @@ function App() {
             alignSelf={"flex-start"}
             rounded={"md"}
           >
-            My Prolects
+            My Projects
           </Text>
     <Projects />
     <Github />
