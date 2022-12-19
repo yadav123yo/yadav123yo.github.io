@@ -83,24 +83,22 @@ const Projects = () => {
         <GridItem>
           <Card
             img={
-              "https://i.postimg.cc/yN3ssjPH/Screenshot-2022-10-18-181525.png"
+              "https://i.postimg.cc/W4KbWfCq/Screenshot-2022-12-19-111742.png"
             }
-            tag={["Solo" ]}
+            tag={["Collaborative" , "E-Service"]}
             tsTags={[
-              "HTML", "CSS", "JavaScript",  "YouTube-Api","npm"
+              "React", "React-Redux", "Node js","Mongo DB", 
             ]}
-            heading={"You-Tube clone"}
+            heading={"Fayda Bazar"}
             content={
-              "A clone of You-Tube.."  
+              "A clone of Shop.com..."  
             }
             features={` Features:
 
-            Search bar working perfectly. 
-            Youtube API call.
-            Embedded iframe for playing video.`}
+            Sign-in/Sign-up, Reusable Navbar, User authentication, Cart Functionality`}
             
-            deploy={"https://youtube-cyan-mu.vercel.app/"}
-            git={"https://github.com/yadav123yo/You-tube"}
+            deploy={"https://fayda-bazar.vercel.app/"}
+            git={"https://github.com/yadav123yo/FaydaBazar"}
           />
         </GridItem>
       

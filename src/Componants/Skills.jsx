@@ -3,6 +3,7 @@ import {
   Text,
   Icon,
   Box,
+  Heading,
 } from "@chakra-ui/react";
 
 
@@ -25,18 +26,13 @@ export default function Skills() {
   return (
     <Container   maxW={"7xl"}  py={16} id="Skills">
      
-          <Text
-            textTransform={"uppercase"}
+           <Heading textAlign={"center"} mb={10} mt={30} textTransform={"uppercase"}
             color={"red.600"}
             fontWeight={700}
             fontSize={"4xl"}
-            marginLeft={"40%"}
-            p={3}
-            alignSelf={"flex-start"}
-            rounded={"md"}
-          >
-            My Skills
-          </Text>
+            rounded={"md"}>
+        My Skills
+      </Heading>
           <Marquee 
                         gradient={false} 
                         speed={90} 

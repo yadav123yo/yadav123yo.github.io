@@ -1,62 +1,102 @@
-import React from "react";
-import GitHubCalendar from "react-github-calendar";
-import { Row } from "react-bootstrap";
-// import ReactTooltip from "react-tooltip"
-import {Box, Text} from "@chakra-ui/react"
-function Github() {
-  return (
-    <Row style={{marginLeft:"15%", justifyContent: "center", paddingBottom: "10px" }}>
-      <Text
-            textTransform={"uppercase"}
-            color={"red.600"}
-            fontWeight={700}
-            fontSize={"3xl"}
-            // marginLeft={"20%"}
-            p={3}
-            // alignSelf={"flex-start"}
-            rounded={"md"}
-          >
-            My Github Calender
-          </Text>
-      <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-        Days I <strong className="purple">Code</strong>
-      </h1>
+// import React from "react";
+// import GitHubCalendar from "react-github-calendar";
+// import { Row } from "react-bootstrap";
+// // import ReactTooltip from "react-tooltip"
+// import {Box, Text} from "@chakra-ui/react"
+// function Github() {
+//   return (
+//     <Row style={{marginLeft:"15%", justifyContent: "center", paddingBottom: "10px" }}>
+//       <Text
+//             textTransform={"uppercase"}
+//             color={"red.600"}
+//             fontWeight={700}
+//             fontSize={"3xl"}
+//             // marginLeft={"20%"}
+//             p={3}
+//             // alignSelf={"flex-start"}
+//             rounded={"md"}
+//           >
+//             My Github Calender
+//           </Text>
+//       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
+//         Days I <strong className="purple">Code</strong>
+//       </h1>
       
-      <Box  display={{ md:"flex", sm: "none" ,xs:"none" }} >
-      <GitHubCalendar
-        username="yadav123yo"
-        blockSize={15}
-        // blockMargin={5}
-        color="red"
-        fontSize={16}
-      >
-        {/* <ReactTooltip delayShow={20} html/> */}
-    </GitHubCalendar>
+//       <Box  display={{ md:"flex", sm: "none" ,xs:"none" }} >
+//       <GitHubCalendar
+//         username="yadav123yo"
+//         blockSize={15}
+//         // blockMargin={5}
+//         color="red"
+//         fontSize={16}
+//       >
+//         {/* <ReactTooltip delayShow={20} html/> */}
+//     </GitHubCalendar>
     
-    </Box>
-    <Box  gap={20} display={{ md:"flex", sm: "none" ,xs:"none" }}  >
+//     </Box>
+//     <Box  gap={20} display={{ md:"flex", sm: "none" ,xs:"none" }}  >
     
-      <div style={{display:"wrap", alignContent:"center", marginLeft:"8%" }}>
-      <Text
-            textTransform={"uppercase"}
-            color={"red.600"}
-            fontWeight={700}
-            fontSize={"3xl"}
-            // marginLeft={"20%"}
-            p={3}
-            // alignSelf={"flex-start"}
-            rounded={"md"}
-          >
-            My Github Stats
-          </Text>
-      <img   src="https://github-readme-streak-stats.herokuapp.com/?user=yadav123yo" alt="yadav123yo" />
-      <br />
+//       <div style={{display:"wrap", alignContent:"center", marginLeft:"8%" }}>
+//       <Text
+//             textTransform={"uppercase"}
+//             color={"red.600"}
+//             fontWeight={700}
+//             fontSize={"3xl"}
+//             // marginLeft={"20%"}
+//             p={3}
+//             // alignSelf={"flex-start"}
+//             rounded={"md"}
+//           >
+//             My Github Stats
+//           </Text>
+//       <img   src="https://github-readme-streak-stats.herokuapp.com/?user=yadav123yo" alt="yadav123yo" />
+//       <br />
       
 
-      <img  src="https://github-readme-stats.vercel.app/api/top-langs?username=yadav123yo&show_icons=true&locale=en&layout=compact" alt="yadav123yo" />
-      </div>
-      </Box>
-    </Row>
+//       <img  src="https://github-readme-stats.vercel.app/api/top-langs?username=yadav123yo&show_icons=true&locale=en&layout=compact" alt="yadav123yo" />
+//       </div>
+//       </Box>
+//     </Row>
+//   );
+// }
+
+// export default Github;
+
+import { Box, Flex, Grid, Heading, Img } from "@chakra-ui/react";
+import React from "react";
+import GitHubCalendar from 'react-github-calendar';
+
+
+function Github() {
+  return (
+    <Box marginTop={-150}>
+      <Heading textAlign={"center"} mt={40} textTransform={"uppercase"}
+            color={"red.600"}
+            fontWeight={700}
+            fontSize={"4xl"}
+            rounded={"md"}>
+        Git Statistics
+      </Heading>
+      <Grid w={'80%'} m='40px auto' justifyContent={'center'} >
+      <Img  className="git" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yadav123yo" />
+     
+      <GitHubCalendar 
+  username="yadav123yo" 
+  blockSize={20}
+  blockMargin={5}
+ color={'red'}
+
+  
+/>
+      <Flex wrap='wrap'>
+
+      <Img className="git" src="https://github-readme-stats.vercel.app/api?username=yadav123yo&show_icons=true&bg_color=00000000" />
+      <Img className="git" src="https://github-readme-streak-stats.herokuapp.com/?user=yadav123yo&show_icons=true&bg_color=00000000" />
+      </Flex>
+      <Img className="git" src="https://github-profile-trophy.vercel.app/?username=yadav123yo&show_icons=true&bg_color=00000000" />
+      <Img className="git" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yadav123yo&layout=compact&show_icons=true&bg_color=00000000" />
+    </Grid>
+    </Box>
   );
 }
 
