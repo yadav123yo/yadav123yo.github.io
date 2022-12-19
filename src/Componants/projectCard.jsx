@@ -221,8 +221,8 @@ export default function Card({
     <Center py={6}>
       <Box
         maxW={"455px"}
-        w={"full"}
-        h={[, "2xl"]}
+        w={"90%"}
+        h={[, "3xl"]}
         bg={useColorModeValue("white", "gray.900")}
         boxShadow={"2xl"}
         rounded={"md"}
@@ -251,9 +251,9 @@ export default function Card({
             {heading}
           </Heading>
           <Text color={"gray.500"}>{content}</Text>
-          <Text color={"grey.700"}>{features}</Text>
+          <Text fontWeight={700} color={"grey.700"}>{features}</Text>
         </Stack>
-        <Stack direction={"row"} pt={5}>
+        <Stack direction={"row"} pt={5} spacing='10%'marginTop={"10%"} >
           <Button
             bg={"red.400"}
             size={"sm"}
@@ -261,6 +261,7 @@ export default function Card({
             color={"white"}
             _hover={{ bg: "red.500" }}
             rightIcon={<BsGithub />}
+          
           >
             <Link
               _hover={{ textDecoration: "none" }}
@@ -277,11 +278,13 @@ export default function Card({
             rounded={"full"}
             _hover={{ bg: "red.600" }}
             rightIcon={<BsLink45Deg />}
+          
           >
             <Link
               _hover={{ textDecoration: "none" }}
               target={"_blank"}
               href={deploy}
+              
             >
               Deployment
             </Link>

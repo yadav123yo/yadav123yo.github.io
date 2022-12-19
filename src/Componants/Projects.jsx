@@ -23,7 +23,7 @@ const Projects = () => {
           
             heading={"Urban Clap"}
             content={
-              "This is a clone of Urban Clap Website..."
+              "This is a clone of Urban Clap Website. this is a collabrative project. we have build this project in 5 days,with 5 member of team including me."
             }
             features={`Features:
             Sign-in/Sign-up, Reusable Navbar, User authentication, Cart Functionality
@@ -38,17 +38,18 @@ const Projects = () => {
             img={
               "https://i.postimg.cc/yN3ssjPH/Screenshot-2022-10-18-181525.png"
             }
-            tag={["Solo" ]}
+            tag={[" individual" ]}
             tsTags={[
               "HTML", "CSS", "JavaScript", "YouTube-Api","npm"
             ]}
             heading={"You-Tube clone"}
             content={
-              "A clone of You-Tube.."  
+              "A clone of You-Tube.In this app i have use You-Tube APi and for that i have use json-server.This is a individual project and it was created in 2 days."  
             }
             features={` Features:
 
             Search bar working perfectly. 
+
             Youtube API call.
             Embedded iframe for playing video.`}
             
@@ -66,9 +67,9 @@ const Projects = () => {
             tsTags={[
               "React", "React-Redux", "Node js","Mongo DB", 
             ]}
-            heading={"ShopoHolic web.. "}
+            heading={"ShopoHolic web. "}
             content={
-              "A Clone of Shephora E-commerce website... "  
+              "A Clone of Shephora E-commerce website.this is a collabrative project. we have build this project in 5 days with 5 member of team including me. "  
             }
             features={` Features:
 
@@ -91,7 +92,7 @@ const Projects = () => {
             ]}
             heading={"Fayda Bazar"}
             content={
-              "A clone of Shop.com..."  
+              "A clone of Shop.com.this is a collabrative project. we have build this project in 6 days with 5 member of team including me."  
             }
             features={` Features:
 
