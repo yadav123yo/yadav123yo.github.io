@@ -222,7 +222,7 @@ export default function Card({
       <Box
         maxW={"455px"}
         w={"90%"}
-        h={[, "3xl"]}
+        // h={[, "3xl"]}
         bg={useColorModeValue("white", "gray.900")}
         boxShadow={"2xl"}
         rounded={"md"}
