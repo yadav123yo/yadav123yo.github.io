@@ -66,9 +66,9 @@ export default function About() {
             >
               <Link
                 style={{ textDecoration: "none" }}
-                href="https://drive.google.com/file/d/115NsimOSrbquLjiOhx7_rzb-GEI1McbE/view?usp=sharing"
+                href="Yogesh-Yadav-Resume.pdf"
                 target={"_blank"}
-              >
+                download = "Yogesh-Yadav-Resume.pdf">
                 My Resume
               </Link>
             </Button>

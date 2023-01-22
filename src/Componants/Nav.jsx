@@ -18,7 +18,7 @@ import {
   import { MoonIcon, SunIcon, HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
   import { Link } from "react-scroll";
   
-  const Links = ["About", "Skills",  "Projects", "Contact"];
+  const Links = ["Home","About", "Skills",  "Projects", "Contact"];
   
   const NavLink = ({ children }) => (
     <Link
