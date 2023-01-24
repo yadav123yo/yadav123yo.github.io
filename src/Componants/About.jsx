@@ -10,8 +10,11 @@ import {
 } from "@chakra-ui/react";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import Typed from "react-typed";
+const resume = require("../asset/Yogesh-Yadav-Resume.pdf")
 
 export default function About() {
+
+  const Yogesh = resume
   return (
     <Stack
       minH={"100vh"}
@@ -64,13 +67,20 @@ export default function About() {
                 bg: "green.500",
               }}
             >
-              <Link
+
+{/* <a href="" class="btn btn-primary btn-lg" id="downloadresume2" download="Yogesh-Yadav-Resume.pdf"><i class="uil uil-download-alt"></i>Download Resume</a> */}
+
+              <a
                 style={{ textDecoration: "none" }}
-                href="Yogesh-Yadav-Resume.pdf"
+              //  onclick= "window.open(')"
+onClick={()=>window.open("https://drive.google.com/file/d/115NsimOSrbquLjiOhx7_rzb-GEI1McbE/view?usp=sharing")}
+                 href = {"Yogesh-Yadav-resume.pdf"}
                 target={"_blank"}
+
                 download = "Yogesh-Yadav-Resume.pdf">
                 My Resume
-              </Link>
+                
+              </a>
             </Button>
          
             <Button rounded={"full"}
@@ -79,6 +89,7 @@ export default function About() {
               _hover={{
                 bg: "green.500",
               }}>
+
               <Link
                 style={{ textDecoration: "none" }}
                 target={"_blank"}
@@ -134,3 +145,6 @@ export default function About() {
     </Stack>
   );
 }
+
+
+{/* <a href="./assets/img/Prasanna-Jadhav-Resume.pdf" class="btn btn-primary btn-lg" id="downloadresume2" download="Prasanna-Jadhav-Resume"><i class="uil uil-download-alt"></i>Download Resume</a> */}
