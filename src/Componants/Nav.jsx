@@ -126,8 +126,11 @@ import {
                     bg: useColorModeValue("gray.200", "gray.700"),
                   }}
                   activeClass="active"
-                  href="https://drive.google.com/file/d/115NsimOSrbquLjiOhx7_rzb-GEI1McbE/view?usp=sharing" 
-               target={"_blank"}
+                  onClick={()=>window.open("https://drive.google.com/file/d/115NsimOSrbquLjiOhx7_rzb-GEI1McbE/view?usp=sharing")}
+                  href = {"Yogesh-Yadav-resume.pdf"}
+                 target={"_blank"}
+ 
+                 download = "Yogesh-Yadav-Resume.pdf"
                   spy={true}
                   smooth={true}
                   offset={-100}
