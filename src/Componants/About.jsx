@@ -10,11 +10,10 @@ import {
 } from "@chakra-ui/react";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import Typed from "react-typed";
-const resume = require("../asset/Yogesh-Yadav-Resume.pdf")
 
 export default function About() {
 
-  const Yogesh = resume
+ 
   return (
     <Stack
       minH={"100vh"}
@@ -73,8 +72,9 @@ export default function About() {
               <a
                 style={{ textDecoration: "none" }}
               //  onclick= "window.open(')"
+              href = "Yogesh-Yadav-resume.pdf"
 onClick={()=>window.open("https://drive.google.com/file/d/115NsimOSrbquLjiOhx7_rzb-GEI1McbE/view?usp=sharing")}
-                 href = {"Yogesh-Yadav-resume.pdf"}
+               
                 target={"_blank"}
 
                 download = "Yogesh-Yadav-Resume.pdf">
