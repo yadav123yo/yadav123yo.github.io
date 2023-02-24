@@ -72,7 +72,7 @@ export default function About() {
               <a
                 style={{ textDecoration: "none" }}
               //  onclick= "window.open(')"
-              href = "Yogesh-Yadav-resume.pdf"
+              href = "Yogesh-Yadav-Resume.pdf"
 onClick={()=>window.open("https://drive.google.com/file/d/115NsimOSrbquLjiOhx7_rzb-GEI1McbE/view?usp=sharing")}
                
                 target={"_blank"}
@@ -135,9 +135,9 @@ onClick={()=>window.open("https://drive.google.com/file/d/115NsimOSrbquLjiOhx7_r
             height={["xs", "lg"]}
             borderRadius={"30"}
             backdropBlur={"true"}
-            
+          
             src={
-              "https://i.postimg.cc/J4GvBnfr/copy.jpg"
+              "https://i.postimg.cc/HkJVkrvq/Screenshot-20230224-172200.png"
             }
           />
        

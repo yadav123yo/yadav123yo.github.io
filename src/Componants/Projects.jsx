@@ -92,7 +92,7 @@ const Projects = () => {
             ]}
             heading={"Fayda Bazar"}
             content={
-              "A clone of Shop.com.this is a collabrative project. we have build this project in 6 days with 5 member of team including me."  
+              "A Clone of Shephora E-commerce website.this is a collabrative project. we have build this project in 6 days with 5 member of team including me. "  
             }
             features={` Features:
 
