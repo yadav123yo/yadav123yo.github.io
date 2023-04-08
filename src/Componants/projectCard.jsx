@@ -77,7 +77,7 @@ export default function Card({
         rounded={"md"}
         p={6}
         overflow={"hidden"}
-        // marginLeft={""}
+         marginLeft={"-15px"}
         >
         <Box
         className="cardZoom"
