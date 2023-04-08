@@ -88,12 +88,18 @@ function Github() {
 
   
 />
+<br />
+<br />
+
       <Flex wrap='wrap'>
 
       <Img className="git" src="https://github-readme-stats.vercel.app/api?username=yadav123yo&show_icons=true&bg_color=00000000" />
       <Img className="git" src="https://github-readme-streak-stats.herokuapp.com/?user=yadav123yo&show_icons=true&bg_color=00000000" />
       </Flex>
+      <br />
+
       <Img className="git" src="https://github-profile-trophy.vercel.app/?username=yadav123yo&show_icons=true&bg_color=00000000" />
+      <br />
       <Img className="git" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yadav123yo&layout=compact&show_icons=true&bg_color=00000000" />
     </Grid>
     </Box>
