@@ -46,7 +46,8 @@ import { GoMail } from "react-icons/go";
             leftIcon={<GoMail />}
           >
             <a href="mailto: yy072156@gmail.com">
-              Click For Connect with mail
+              {/* Click For Connect with mail */}
+              yy072156@gmail.com
             </a>
           </Button>
         </Box>

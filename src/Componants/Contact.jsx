@@ -133,6 +133,7 @@ export default function Contact() {
                     }}
                     isRound
                   />
+                
                 </Link>
 
                 <Link
@@ -150,6 +151,7 @@ export default function Contact() {
                     }}
                     isRound
                   />
+                  
                 </Link>
               </Stack>
 

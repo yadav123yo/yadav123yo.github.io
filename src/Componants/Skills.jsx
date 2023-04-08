@@ -17,6 +17,8 @@ import {
   SiHtml5,
   SiCss3,
   SiRedux,
+  SiChakraui,
+  SiNpm
 } from "react-icons/si";
 import { DiJavascript1 } from "react-icons/di";
 
@@ -47,8 +49,8 @@ export default function Skills() {
             <Box display={"flex"} gap={"23px"}  >
 
             <Box   borderWidth='3px' p='2' alignItems={"center"} color={"black.500"} >
-              <Icon as={FaGithub} w={20} h={20}  />
-              <Text marginLeft={"3"}>Github</Text>
+              <Icon as={SiChakraui} w={20} h={20}  />
+              <Text marginLeft={"3"}>Chakra Ui</Text>
             </Box>
            <Box borderWidth='3px' p='2' alignItems={"center"}  >
               <Icon as={FaNodeJs} w={20} h={20} color={"green.500"}/>
@@ -83,8 +85,8 @@ export default function Skills() {
               <Text>MongoDB</Text>
             </Box>
             <Box  borderWidth='3px' p='2' alignItems={"center"} justifyItems={"center"}  >
-              <Icon as={SiPostman} w={20} h={20} color={"yellow.500"} />
-              <Text marginLeft={"2"}>Postman</Text>
+              <Icon as={SiNpm} w={20} h={20} color={"yellow.500"} />
+              <Text marginLeft={"2"}>NPM</Text>
             </Box>
 
             </Box>

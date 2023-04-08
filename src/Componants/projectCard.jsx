@@ -69,7 +69,7 @@ export default function Card({
   return (
     <Center py={6}>
       <Box
-        maxW={"455px"}
+        maxW={"95%"}
         w={"90%"}
          // h={[, "2xl"]}
         bg={useColorModeValue("white", "gray.900")}
@@ -77,6 +77,7 @@ export default function Card({
         rounded={"md"}
         p={6}
         overflow={"hidden"}
+        // marginLeft={""}
         >
         <Box
         className="cardZoom"
@@ -102,14 +103,14 @@ export default function Card({
           <Text color={"gray.500"}>{content}</Text>
           <Text fontWeight={700} color={"grey.700"}>{features}</Text>
         </Stack>
-        <Stack direction={"row"} pt={5} spacing='10%'marginTop={"10%"} >
+        <Stack direction={"row"} pt={5} flexDirection={"row"} justifyContent={"space-between"} marginTop={"10%"} >
           <Button
             bg={"red.400"}
             size={"sm"}
-            rounded={"full"}
+            rounded={"md"}
             color={"white"}
             _hover={{ bg: "red.500" }}
-            rightIcon={<BsGithub />}
+             rightIcon={<BsGithub />}
           
           >
             <Link
@@ -124,9 +125,9 @@ export default function Card({
             bg={"red.300"}
             color={"white"}
             size={"sm"}
-            rounded={"full"}
+            rounded={"md"}
             _hover={{ bg: "red.600" }}
-            rightIcon={<BsLink45Deg />}
+             rightIcon={<BsLink45Deg />}
           
           >
             <Link
